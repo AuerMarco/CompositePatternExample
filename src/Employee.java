@@ -4,6 +4,4 @@ public class Employee extends EmployeeGeneral {
         super(name, gehalt);
     }
 
-
-
 }

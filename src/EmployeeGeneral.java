@@ -28,7 +28,6 @@ public class EmployeeGeneral implements IEmployeeGeneral {
         }
     }
 
-
     @Override
     public void print() {
         System.out.println("Name: " + name + " Gehalt: " + gehalt);
