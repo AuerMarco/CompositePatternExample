@@ -4,5 +4,5 @@ public interface IManagerGeneral {
 
     void remove(EmployeeGeneral employee);
 
-    void getSubordinates();
+    void getAllSubordinates();
 }

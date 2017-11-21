@@ -10,6 +10,14 @@ public class Manager extends EmployeeGeneral implements IManagerGeneral {
         subordinates = new ArrayList<>();
     }
 
+    public ArrayList<EmployeeGeneral> getSubordinates() {
+        return subordinates;
+    }
+
+    public void setSubordinates(ArrayList<EmployeeGeneral> subordinates) {
+        this.subordinates = subordinates;
+    }
+
     @Override
     public void add(EmployeeGeneral employee) {
         subordinates.add(employee);
@@ -23,14 +31,13 @@ public class Manager extends EmployeeGeneral implements IManagerGeneral {
     @Override
     public void print() {
         System.out.println("Name: " + super.getName() + " Gehalt: " + super.getGehalt());
-        getSubordinates();
+        getAllSubordinates();
     }
 
     @Override
-    public void getSubordinates() {
+    public void getAllSubordinates() {
         for (EmployeeGeneral employee : subordinates) {
             employee.print();
         }
-
     }
 }
