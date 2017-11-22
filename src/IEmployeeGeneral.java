@@ -1,7 +1,7 @@
 /**
- * @author Kyle
- * <p>
  * Interface for the employee super class
+ *
+ * @author Kyle
  */
 public interface IEmployeeGeneral {
 

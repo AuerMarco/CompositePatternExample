@@ -1,7 +1,7 @@
 /**
- * @author Kyle
- * <p>
  * Class for regular employees
+ *
+ * @author Kyle
  */
 public class Employee extends EmployeeGeneral {
 

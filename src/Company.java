@@ -1,7 +1,7 @@
 /**
- * @author Kyle
- * <p>
  * Main class to demonstrate the program
+ *
+ * @author Kyle
  */
 public class Company {
     public static void main(String[] args) {

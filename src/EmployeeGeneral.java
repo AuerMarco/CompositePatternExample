@@ -1,7 +1,7 @@
 /**
- * @author Kyle
- * <p>
  * Base class for regular employees and managers
+ *
+ * @author Kyle
  */
 public class EmployeeGeneral implements IEmployeeGeneral {
 

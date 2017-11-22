@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 
 /**
- * @author Kyle
- * <p>
  * Class for managers
+ *
+ * @author Kyle
  */
 public class Manager extends EmployeeGeneral implements IManagerGeneral {
 

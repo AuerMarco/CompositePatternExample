@@ -1,7 +1,7 @@
 /**
- * @author Kyle
- * <p>
  * Interface for the manager class
+ *
+ * @author Kyle
  */
 public interface IManagerGeneral {
 
