@@ -9,10 +9,10 @@ public class EmployeeGeneral implements IEmployeeGeneral {
     private double salary;
 
     /**
-     * Sets the name and salary for the employee
+     * Sets the name and salary for the employee / manager
      *
-     * @param name   name of the employee
-     * @param salary salary of the employee
+     * @param name   name of the employee / manager
+     * @param salary salary of the employee / manager
      */
     public EmployeeGeneral(String name, double salary) {
         this.name = name;
@@ -20,32 +20,32 @@ public class EmployeeGeneral implements IEmployeeGeneral {
     }
 
     /**
-     * @return name of the employee
+     * @return name of the employee / manager
      */
     public String getName() {
         return name;
     }
 
     /**
-     * Sets a new name for the employee
+     * Sets a new name for the employee / manager
      *
-     * @param name new name of the employee
+     * @param name new name of the employee / manager
      */
     public void setName(String name) {
         this.name = name;
     }
 
     /**
-     * @return salary of the employee
+     * @return salary of the employee / manager
      */
     public double getSalary() {
         return salary;
     }
 
     /**
-     * Sets a new salary for the employee, it's a positive value
+     * Sets a new salary for the employee / manager, it's a positive value
      *
-     * @param salary new salary for the employee
+     * @param salary new salary for the employee / manager
      */
     public void setSalary(double salary) {
         if (salary >= 0) {
@@ -56,7 +56,7 @@ public class EmployeeGeneral implements IEmployeeGeneral {
     }
 
     /**
-     * @return String-output with the name and salary of the employee
+     * @return String-output with the name and salary of the employee / manager
      */
     @Override
     public String toString() {
@@ -64,7 +64,7 @@ public class EmployeeGeneral implements IEmployeeGeneral {
     }
 
     /**
-     * Automatically prints the Stringed variables of the employee
+     * Automatically prints the Stringed variables of the employee / manager
      */
     @Override
     public void print() {
