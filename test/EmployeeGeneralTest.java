@@ -3,6 +3,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * @author Kyle
+ * <p>
+ * Test class for the employee super class
+ */
 class EmployeeGeneralTest {
     EmployeeGeneral emp;
 
@@ -11,6 +16,9 @@ class EmployeeGeneralTest {
         emp = new Employee("Employee", 99);
     }
 
+    /**
+     * Checks if you can change the salary at all
+     */
     @Test
     void setSalary() {
         double temp = 99;
@@ -18,12 +26,18 @@ class EmployeeGeneralTest {
         assertEquals(temp, emp.getSalary());
     }
 
+    /**
+     * Checks if negative salary is successfully caught
+     */
     @Test
     void setSalaryNegative() {
         emp.setSalary(-666);
         assertEquals(99, emp.getSalary());
     }
 
+    /**
+     * Checks if the toString method returns the proper value
+     */
     @Test
     void toStringTest() {
         assertEquals("Name: Employee Salary: 99.0", emp.toString());
