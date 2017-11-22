@@ -25,7 +25,7 @@ public class Manager extends EmployeeGeneral implements IManagerGeneral {
 
     @Override
     public void remove(EmployeeGeneral employee) {
-
+        subordinates.remove(employee);
     }
 
     @Override

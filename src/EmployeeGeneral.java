@@ -28,7 +28,6 @@ public class EmployeeGeneral implements IEmployeeGeneral {
         }
     }
 
-
     @Override
     public String toString() {
         return "Name: " + name + " Gehalt: " + gehalt;
