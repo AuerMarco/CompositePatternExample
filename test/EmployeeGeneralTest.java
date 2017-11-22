@@ -26,7 +26,7 @@ class EmployeeGeneralTest {
 
     @Test
     void toStringTest() {
-        assertEquals("Name: Employee Gehalt: 99.0", emp.toString());
+        assertEquals("Name: Employee Salary: 99.0", emp.toString());
     }
 
 
