@@ -1,4 +1,9 @@
-public class Firma {
+/**
+ * @author Kyle
+ * <p>
+ * Main class to demonstrate the program
+ */
+public class Company {
     public static void main(String[] args) {
         Manager m = new Manager("Manager", 999);
         Employee e = new Employee("Slave1", 99);

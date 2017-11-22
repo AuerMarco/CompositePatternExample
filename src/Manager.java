@@ -22,6 +22,8 @@ public class Manager extends EmployeeGeneral implements IManagerGeneral {
     }
 
     /**
+     * Returns the current ArrayList of (direct) subordinates
+     *
      * @return list of (direct) subordinates
      */
     public ArrayList<EmployeeGeneral> getSubordinates() {
@@ -29,6 +31,8 @@ public class Manager extends EmployeeGeneral implements IManagerGeneral {
     }
 
     /**
+     * Sets the current ArrayList of (direct) subordinates to a new list
+     *
      * @param subordinates list of (direct) subordinates
      */
     public void setSubordinates(ArrayList<EmployeeGeneral> subordinates) {
@@ -36,6 +40,8 @@ public class Manager extends EmployeeGeneral implements IManagerGeneral {
     }
 
     /**
+     * Adds an employee to an ArrayList of (direct) subordinates
+     *
      * @param employee employee / manager to be added as subordinate
      */
     @Override
@@ -44,6 +50,8 @@ public class Manager extends EmployeeGeneral implements IManagerGeneral {
     }
 
     /**
+     * Removes an employee from the ArrayList of (direct) subordinates
+     *
      * @param employee employee / manager to be removed as subordinate
      */
     @Override
