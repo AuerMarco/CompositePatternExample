@@ -1,6 +1,6 @@
 /**
  * @author Kyle
- *
+ * <p>
  * Base class for regular employees and managers
  */
 public class EmployeeGeneral implements IEmployeeGeneral {
@@ -64,7 +64,7 @@ public class EmployeeGeneral implements IEmployeeGeneral {
     }
 
     /**
-     *Automatically prints the Stringed variables of the employee
+     * Automatically prints the Stringed variables of the employee
      */
     @Override
     public void print() {
