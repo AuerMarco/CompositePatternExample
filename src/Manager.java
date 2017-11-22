@@ -30,7 +30,7 @@ public class Manager extends EmployeeGeneral implements IManagerGeneral {
 
     @Override
     public void print() {
-        System.out.println("Name: " + super.getName() + " Gehalt: " + super.getGehalt());
+        System.out.println("Name: " + super.getName() + " Gehalt: " + super.getSalary());
         getAllSubordinates();
     }
 

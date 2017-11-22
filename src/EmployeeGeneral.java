@@ -1,13 +1,11 @@
-import java.util.ArrayList;
-
 public class EmployeeGeneral implements IEmployeeGeneral {
 
     private String name;
-    private double gehalt;
+    private double salary;
 
-    public EmployeeGeneral(String name, double gehalt) {
+    public EmployeeGeneral(String name, double salary) {
         this.name = name;
-        this.gehalt = gehalt;
+        this.salary = salary;
     }
 
     public String getName() {
@@ -18,23 +16,25 @@ public class EmployeeGeneral implements IEmployeeGeneral {
         this.name = name;
     }
 
-    public double getGehalt() {
-        return gehalt;
+    public double getSalary() {
+        return salary;
     }
 
-    public void setGehalt(double gehalt) {
-        if (gehalt >= 0) {
-            this.gehalt = gehalt;
+    public void setSalary(double salary) {
+        if (salary >= 0) {
+            this.salary = salary;
+        } else {
+            System.out.println("");
         }
     }
 
     @Override
     public String toString() {
-        return "Name: " + name + " Gehalt: " + gehalt;
+        return "Name: " + name + " Gehalt: " + salary;
     }
 
     @Override
     public void print() {
-        System.out.println("Name: " + name + " Gehalt: " + gehalt);
+        System.out.println("Name: " + name + " Gehalt: " + salary);
     }
 }
