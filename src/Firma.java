@@ -1,11 +1,11 @@
 public class Firma {
     public static void main(String[] args) {
         Manager m = new Manager("Manager", 999);
-        EmployeeGeneral e = new Employee("Slave1", 99);
+        Employee e = new Employee("Slave1", 99);
         m.add(e);
         Manager m2 = new Manager("Top Manager", 999);
-        EmployeeGeneral e2 = new Employee("Slave2", 99);
-        EmployeeGeneral e3 = new Employee("Slave3", 99);
+        Employee e2 = new Employee("Slave2", 99);
+        Employee e3 = new Employee("Slave3", 99);
         m2.add(m);
         m2.add(e2);
         m2.add(e3);
