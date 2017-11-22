@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class EmployeeGeneralTest {
-    EmployeeGeneral emp = new Employee("Employee", 99);
+    EmployeeGeneral emp;
 
     @BeforeEach
     void setUp() {
@@ -12,12 +12,17 @@ class EmployeeGeneralTest {
     }
 
     @Test
-    void setSalaryTest() {
-        double temp = -99;
+    void setSalary() {
+        double temp = 99;
         emp.setSalary(temp);
-        assertEquals(99, emp.getSalary());
+        assertEquals(temp, emp.getSalary());
     }
 
+    @Test
+    void setSalaryNegative() {
+        emp.setSalary(-666);
+        assertEquals(99, emp.getSalary());
+    }
 
     @Test
     void toStringTest() {
