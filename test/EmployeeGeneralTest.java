@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * @author Kyle
- * <p>
  * Test class for the employee super class
+ *
+ * @author Kyle
  */
 class EmployeeGeneralTest {
     EmployeeGeneral emp;

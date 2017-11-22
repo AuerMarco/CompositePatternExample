@@ -4,6 +4,11 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.ArrayList;
 
+/**
+ * Test class for the manager class
+ *
+ * @author Kyle
+ */
 class ManagerTest {
 
     Manager bigBoss;
@@ -22,6 +27,9 @@ class ManagerTest {
 //        bigBoss.setSubordinates(new ArrayList<>());
     }
 
+    /**
+     * Adds two employees as subordinates and then checks if the array-size is 2
+     */
     @Test
     void add() {
         bigBoss.add(emp1);
@@ -29,6 +37,9 @@ class ManagerTest {
         assertEquals(2, bigBoss.getSubordinates().size());
     }
 
+    /**
+     * Adds 2 employees using the above method. Then removes one and checks if the array-size is 1
+     */
     @Test
     void remove() {
         add();
