@@ -31,7 +31,7 @@ class EmployeeGeneralTest {
      */
     @Test
     void setSalaryNegative() {
-        emp.setSalary(-666);
+        emp.setSalary(-66);
         assertEquals(99, emp.getSalary());
     }
 

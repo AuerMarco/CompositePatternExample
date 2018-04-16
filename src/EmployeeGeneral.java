@@ -63,6 +63,7 @@ public class EmployeeGeneral implements IEmployeeGeneral {
         return "Name: " + name + " Salary: " + salary;
     }
 
+    //Besser: Eigene Klasse für Ausgabe / Print und hier nur return String
     /**
      * Automatically prints the Stringed variables of the employee / manager
      */
